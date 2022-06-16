@@ -1,0 +1,12 @@
+$small: 801px;
+
+.topmenu__list li {
+  @media screen and (max-width: $small) {
+    background: #EEDFAC;
+    height: 64px;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    min-width: 460px;
+  }
+}
